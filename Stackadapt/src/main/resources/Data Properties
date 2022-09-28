@@ -1,0 +1,13 @@
+
+browser=chrome
+#browser=firefox
+#browser=Edge
+
+HomepageURL = https://www.stackadapt.com
+Firstname = Jane
+Lastname = Doe
+BusinessEmail = jane.doe@advertising.com
+Phonenumber = 1112223344
+Companyname = advertising.com
+Jobtitle = Chief Executive Officer
+

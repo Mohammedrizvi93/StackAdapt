@@ -1,0 +1,28 @@
+Step 1: Install Intellij
+Step 2: Install Jdk
+Step 3: Verify the dependency are configured
+
+
+Info:
+1: There are 2 Pom file where all the element are stored. One for each page. Pom file are broken down to storing the element and then defining the Webelement to call in your test. Each section has a brief description and each name is unique to their element.
+2. There is a Base file which is extended to each class for changing to different browsers and calling screenshot in your test.
+3. There is also Data Properties file for data we're going to use for testing.
+4: Screenshot are printed in the test-output folder if it fails
+HomepageURL = www.stackadapt.com
+Firstname = Jane
+Lastname = Doe
+BusinessEmail = jane.doe@advertising.com
+Phonenumber = 1112223344
+Companyname = advertising.com
+Jobtitle = Chief Executive Officer
+Companytype = Publisher
+
+How to run the test script:
+Option 1
+1. Navigate to Demo Page. test > java >StackAdapt_Assigment>Demo_page
+2. Right click on the Demo_page Header and click Run “Demo_page”
+
+Option 2
+1. Navigate to testng.xml
+2. Right click on the Testng.xml and select run.
+3. View report under test-output folder

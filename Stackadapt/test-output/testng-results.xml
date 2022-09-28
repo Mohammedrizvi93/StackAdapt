@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T17:35:21 EDT" name="StackAdapt" finished-at="2022-09-28T17:36:02 EDT" duration-ms="40725">
+    <groups>
+    </groups>
+    <test started-at="2022-09-28T17:35:21 EDT" name="Chrome test" finished-at="2022-09-28T17:36:02 EDT" duration-ms="40725">
+      <class name="StackAdapt_Assigment.Demo_Page">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:StackAdapt_Assigment.Demo_Page@626abbd0]" started-at="2022-09-28T17:35:21 EDT" name="initialize" finished-at="2022-09-28T17:35:25 EDT" duration-ms="4440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Demo_sign_up()[pri:0, instance:StackAdapt_Assigment.Demo_Page@626abbd0]" started-at="2022-09-28T17:35:25 EDT" name="Demo_sign_up" finished-at="2022-09-28T17:36:01 EDT" duration-ms="36211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo_sign_up -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:StackAdapt_Assigment.Demo_Page@626abbd0]" started-at="2022-09-28T17:36:01 EDT" name="CloseBrowser" finished-at="2022-09-28T17:36:02 EDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- StackAdapt_Assigment.Demo_Page -->
+    </test> <!-- Chrome test -->
+  </suite> <!-- StackAdapt -->
+</testng-results>
